@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Request - WellSpring Family Clinic</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="bmi.html">BMI Calculator</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Appointment Request</h1>
+    <form id="appointmentForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" required>
+      <label for="message">Message:</label>
+      <textarea id="message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
